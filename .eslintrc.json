@@ -1,0 +1,40 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "parser": "@babel/eslint-parser",
+  "plugins": ["react", "@typescript-eslint", "import"],
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "env": {
+    "es6": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "__DEV__": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [".jsx", ".js", ".tsx"]
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "react/state-in-constructor": "off"
+    // "react/static-property-placement": "off",
+    // "react/jsx-props-no-spreading": "off",
+    // "react/prop-types": "off",
+    // "no-param-reassign": "off",
+    // "no-console": "off"
+  }
+}

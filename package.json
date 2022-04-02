@@ -1,0 +1,53 @@
+{
+  "name": "react-native-horizontal-scroll-menu",
+  "version": "1.0.0",
+  "description": "React native scrolling menu",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbcaio/react-native-horizontal-scroll-menu.git"
+  },
+  "keywords": [
+    "horizontal menu",
+    "react-native",
+    "scrolling menu",
+    "react native scrolling menu"
+  ],
+  "author": "Caio Ceccon Bolognani",
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.3"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.61.5",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/cbcaio/react-native-horizontal-scroll-menu.git/issues"
+  },
+  "homepage": "https://github.com/cbcaio/react-native-horizontal-scroll-menu.git#readme",
+  "volta": {
+    "node": "16.14.2"
+  }
+}
